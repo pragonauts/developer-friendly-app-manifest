@@ -1,12 +1,12 @@
-# Sustainable App Manifest
+# Developer Friendly App Manifest
 
-Developing of scalable, easy to maintain applications whitepaper.
+Developing of scalable, easy to maintain Node.js applications whitepaper.
 
 -------------------------
 
 ### function tldr () {
 
-  1. [**Snappy documentation**](#snappy-documentation)
+  1. [**Developer Friendly Documentation Included**](#snappy-documentation)
 
     + "Purpose over solution" for each module
     + Public API documetation
@@ -16,7 +16,7 @@ Developing of scalable, easy to maintain applications whitepaper.
     + Runs and scales in containers without vendor locking
     + Is [12-Factor](https://12factor.net) compliant
 
-  3. [**Good Enough Test Coverage**](#good-enough-test-coverage)
+  3. [**Good Test Coverage**](#good-test-coverage)
 
     + Everyone know, what's expected behavior
     + No uninformed update breaks the application
@@ -40,7 +40,7 @@ Developing of scalable, easy to maintain applications whitepaper.
 
 -------------------------
 
-## Snappy documentation
+## Developer Friendly Documentation Included
 
   Documentation should be small as possible, but not smaller. Use Markdown,
   because it has best portability (IDE's, Github).
@@ -94,7 +94,7 @@ Developing of scalable, easy to maintain applications whitepaper.
     in storage, which allows introspecting an app’s behavior over time.
 
 
-## Good Enough Test Coverage
+## Good Test Coverage
 
   Automatic test coverage is most important for scaling of development. It brings safer updates,
   easier maintenance and provides knowledge for developers, who are unfamiliar
@@ -176,5 +176,3 @@ Developing of scalable, easy to maintain applications whitepaper.
 
   > The most simple solution is injecting dependencies only in root `index.js` file
   > of each feature.
-
-
